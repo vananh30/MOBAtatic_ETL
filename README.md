@@ -13,7 +13,7 @@ In general, the final result will provide input for analysis of a LOL game in 3 
 The project follows the follow steps:
 
 Step 1: Scope the Project and Gather Data
-Step 2: Explore and Assess the Data
+Step 2: Explore and Assess the Data \n
 Step 3: Define the Data Model
 Step 4: Run ETL to Model the Data
 Step 5: Complete Project Write Up
