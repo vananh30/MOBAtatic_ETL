@@ -1,22 +1,32 @@
 # MOBAtatic_ETL
-Project Summary
-How to win a LOL(League of Legends) game, if you are not a mechanical player like Rookie, Uzi, or Faker? One way to make it, although less creatively, is copying what the winning others are doing.
+Overview of the Project How to win a LOL game since you're not a mechanical player like Rookie, Uzi, or Faker? One way to get ahead, even if it's not very creative, is to imitate what the winners are doing.
 
-This project explores 100,800 high ranked games in the KR(Korean) server, and trying to help to answer few questions that puzzled many players:
+This research examines 100,800 high-ranking games on the KR(Korean) server, with the goal of answering a few problems that have been plaguing many players:
 
-Who are the best buddies in champions?
-What is the best build(items) of a champion?
-Which is more important, dragon soul (getting 4 dragons) or Baron Nashor?
-Does vision control really improve chances of winning?
-In general, the final result will provide input for analysis of a LOL game in 3 dimensions: champion compositions, champion item builds, and team objetives/visions control
+In champions, who are the best friends?
+What is the best champion build(items)?
+Dragon soul (getting four dragons) or Baron Nashor: which is more important?
+Is it true that controlling one's vision improves one's chances of winning?
+In general, the end result offer information for a three-dimensional study of a LOL game: champion compositions, champion item builds, and team objectives/visions control.
 
-The project follows the follow steps:
+The steps for the project are as follows:
 
-Step 1: Scope the Project and Gather Data <br>
-Step 2: Explore and Assess the Data <br>
-Step 3: Define the Data Model <br>
-Step 4: Run ETL to Model the Data<br>
-Step 5: Complete Project Write Up<br>
+Step 1: Define the project's scope and collect data <br>
+Step 2: Investigate and Evaluate the Data <br>
+Step 3: Establish a Data Model <br>
+Step 4: Model the Data Using ETL <br>
+Step 5: Finish the project report <br>
 
+<b> Built With </b>
+
+- Python
+- Jupyter Notebook
+- Pandas
+- PostgreSql
+  
+ <b> How to use </b>
+- Update User ,Password and database name in files project,create_table and test
+- run in cmd python create_tables.py
+- run in cmd python etl.py
 
 dataset: #https://www.kaggle.com/datasets/gyejr95/league-of-legendslol-ranked-games-2020-ver1
